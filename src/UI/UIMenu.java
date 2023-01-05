@@ -72,7 +72,7 @@ public class UIMenu {
                         emailCorrect = true;            //Indico no volver a entrar a este do
                         //Obtener el usuario logeado
                         doctorLogged = d;               //Agarro el doctor (el objeto) que se ha logeado
-                        //showDoctorMenu
+                        UIDoctorMenu.showDoctorMenu();
                     }
                 }
             }
