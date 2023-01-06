@@ -68,11 +68,11 @@ public class Doctor extends User{
             this.id = id;
         }
 
-        public Date getDate() {
+        public Date getDate(String DATE) {
             return date;
         }
 
-        public String getDate(String DATE) {    //Hago sobrecarga de método, puedo hacerlo al agregar ese parámetro
+        public String getDate() {    //Hago sobrecarga de método, puedo hacerlo al agregar ese parámetro
             return format.format(date);         //Retorno un string formateado de mi date
         }
 
